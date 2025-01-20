@@ -5,7 +5,7 @@ import Website from "./pages/Website";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import DashBoard from "./pages/VendorDashBoard";
-import GeoChart from "./components/Charts/GeoChart";
+// import GeoChart from "./components/Charts/GeoChart";
 import Map from "./components/Map/Map";
 
 function App() {

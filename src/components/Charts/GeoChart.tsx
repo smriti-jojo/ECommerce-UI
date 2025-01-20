@@ -29,7 +29,8 @@ const GeoChart = () => {
         const chart = new (Chart as any)((canvas as any).getContext("2d"), {
           type: "choropleth",
           data: {
-            labels: state.map((d) => d.properties.name),
+            // labels: state.map((d) => d.properties.name),
+            labels:"",
             datasets: [
               {
                 label: "States",
