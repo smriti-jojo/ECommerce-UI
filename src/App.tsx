@@ -13,8 +13,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Login />}></Route>
-          <Route path="/website" element={<Website />}></Route>
+          {/* <Route path="/" element={<Login />}></Route> */}
+          <Route path="/" element={<Website />}></Route>
           <Route path="/account/register" element={<Register />}></Route>
           <Route path="/vendor/dashboard" element={<DashBoard />}></Route>
           <Route path="/map" element={<Map />}></Route>
